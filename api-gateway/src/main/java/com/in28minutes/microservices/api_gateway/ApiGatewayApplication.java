@@ -1,13 +1,17 @@
-package com.in28minutes.microservices.apigateway;
+package com.in28minutes.microservices.api_gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 public class ApiGatewayApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApiGatewayApplication.class, args);
+
 	}
 
 }
